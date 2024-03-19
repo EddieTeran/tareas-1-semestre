@@ -9,10 +9,10 @@ informacion_personal = {
 
 
 # Accede al valor asociado con la clave "ciudad" y modifícalo con una ciudad diferente.
-informacion_personal["ciudad"] = "quito"
+informacion_personal["ciudad"] = "Quito"
 
 # Agregar una nueva clave-valor al diccionario que represente la "profesion" de la persona
-informacion_personal["segunda profecion"]="vete"
+informacion_personal["segunda profesion"]="Veterinario"
 
 # Verifica si la clave "telefono" existe en el diccionario. Si no existe, agrégala.
 if "telefono" not in informacion_personal:
