@@ -64,20 +64,18 @@ def calcular_descuento(monto_total, porcentaje_descuento=5):
     descuento = monto_total * (porcentaje_descuento / 100)
     return descuento
 
-    # CALCULO CON EL5%
-
-
+# CALCULO CON EL5%
 monto_compra = suma_total
 descuento = calcular_descuento(monto_compra)
 total = suma_total - descuento
 print(f'Descuento ***con tarjeta*** 5% : {descuento}')
-print(f" Total a pagar tarjeta:{total}"+"\n")
+print(f" Total a pagar tarjeta: ${total}"+"\n")
 
 # CALCULO CON EL 10%
 monto_compra = suma_total
 descuento = calcular_descuento(monto_compra, 10)
 total = suma_total - descuento
 print(f'Descuento ***efectivo***  10%  : {descuento}')
-print(f" Total a pagar en efectivo:{total}")
+print(f" Total a pagar en efectivo: ${total}")
 print("""***GRACIAS POR SU COMPRA***
       """)
